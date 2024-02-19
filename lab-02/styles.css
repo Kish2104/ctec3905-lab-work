@@ -1,0 +1,31 @@
+nav {
+    display: flex; /*joins the links together*/
+    flex-direction: column;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+nav a {
+background-color: red;
+color: beige;
+padding: 0.5em 0.5em;
+margin: 0.5em, 0.5em;
+
+}
+
+nav a:hover{
+    background-color: sienna;
+}
+
+header,main{
+    overflow: auto;
+}
+
+main, nav{
+    overflow: auto;
+}
+
+main {
+    display: flex;
+}
+
