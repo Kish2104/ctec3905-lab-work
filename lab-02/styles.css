@@ -10,11 +10,12 @@ background-color: red;
 color: beige;
 padding: 0.5em 0.5em;
 margin: 0.5em, 0.5em;
+transition: background-color 0.5s;
 
 }
 
 nav a:hover{
-    background-color: sienna;
+    background-color: black;
 }
 
 header,main{
